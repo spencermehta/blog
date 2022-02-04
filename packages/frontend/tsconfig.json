@@ -15,6 +15,11 @@
     "jsx": "preserve",
     "incremental": true
   },
+  "references": [
+    {
+      "path": "../../packages/configuration"
+    }
+  ],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
