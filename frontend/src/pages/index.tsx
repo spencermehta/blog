@@ -17,14 +17,18 @@ const Home = ({ allPosts }: HomeProps): JSX.Element => {
       </Head>
 
       <main>
-        <div style={{ padding: "0 33%" }}>
-          <h1>Spencer Mehta</h1>
-          <p>Software Engineer @ Theodo UK</p>
-          <div>
-            <h2>Blog posts</h2>
-            {allPosts.map((post) => (
-              <BlogPost key={post.slug} post={post} />
-            ))}
+        <div style={{ display: "flex", maxWidth: "1000px", margin: "auto" }}>
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            <div>
+              <h1>Spencer Mehta</h1>
+              <p>Software Engineer @ Theodo UK</p>
+            </div>
+            <div>
+              <h2>Blog posts</h2>
+              {allPosts.map((post) => (
+                <BlogPost key={post.slug} post={post} />
+              ))}
+            </div>
           </div>
         </div>
       </main>

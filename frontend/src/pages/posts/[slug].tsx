@@ -8,9 +8,11 @@ interface PostProps {
 
 const Post = ({ post }: PostProps) => {
   return (
-    <div style={{ padding: "0 33%" }}>
-      {" "}
-      <h1>{post.title}</h1> <PostBody content={post.content} />
+    <div style={{ display: "flex", maxWidth: "1000px", margin: "auto" }}>
+      <div style={{ display: "flex", flexDirection: "column" }}>
+        <h1>{post.title}</h1>
+        <PostBody content={post.content} />
+      </div>
     </div>
   );
 };
