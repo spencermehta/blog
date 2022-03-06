@@ -26,7 +26,7 @@ export class InfraStack extends Stack {
         certificate: Certificate.fromCertificateArn(
           this,
           "Cert",
-          process.env.DOMAIN_CERTIFICATE_ARN ?? ""
+          "arn:aws:acm:us-east-1:781202196452:certificate/a881dd64-ed58-4cab-b4eb-c2bf552a4895"
         ),
       },
     });
