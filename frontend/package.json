@@ -1,9 +1,6 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
-  "bin": {
-    "infra": "bin/infra.js"
-  },
+  "name": "@blog/frontend-app",
+  "version": "1.0.0",
   "scripts": {
     "test": "jest",
     "cdk": "cdk",

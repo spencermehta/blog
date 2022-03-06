@@ -1,6 +1,9 @@
 {
+  "name": "@blog/app",
   "private": true,
+  "version": "1.0.0",
   "workspaces": [
     "frontend/*"
-  ]
+  ],
+  "packageManager": "yarn@3.1.1"
 }
