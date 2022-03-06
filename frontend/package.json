@@ -33,6 +33,7 @@
   "dependencies": {
     "@sls-next/cdk-construct": "^3.7.0-alpha.7",
     "aws-cdk-lib": "2.13.0",
+    "cdk": "^2.15.0",
     "constructs": "^10.0.0",
     "next": "12.0.10",
     "react": "17.0.2",
